@@ -24,7 +24,7 @@ namespace:
 external-dns:
   txtOwnerId: controlplane-prod
   domainFilters:
-    - controlplane-prod.controlplane-prod.172.18.255.254.traefik.me
+    - controlplane-prod.172.18.255.254.traefik.me
   extraArgs:
     - --source=traefik-proxy
   rbac:
